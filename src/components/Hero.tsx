@@ -28,7 +28,7 @@ const Hero = () => {
             </Badge>
             
             <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white">
-              Ana Silva
+              Paloma Santos Dias
             </h1>
             
             <div className="text-xl md:text-2xl text-white/90 mb-8 space-y-2">
@@ -37,8 +37,8 @@ const Hero = () => {
             </div>
             
             <p className="text-lg text-white/80 mb-10 max-w-2xl mx-auto leading-relaxed">
-              Apaixonada por tecnologia e sistemas empresariais, com foco em SAP MM e desenvolvimento de soluções inovadoras. 
-              Busco sempre aprender e contribuir para projetos que fazem a diferença.
+              Apaixonada por tecnologia e sistemas empresariais, especializada em SAP MM e desenvolvimento de soluções inovadoras. 
+              Combino conhecimento técnico com visão de negócio para criar soluções eficientes e impactantes.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
@@ -61,9 +61,9 @@ const Hero = () => {
             
             <div className="flex justify-center gap-6">
               {[
-                { icon: Github, href: "#", label: "GitHub" },
-                { icon: Linkedin, href: "#", label: "LinkedIn" },
-                { icon: Mail, href: "mailto:ana@email.com", label: "Email" }
+                { icon: Github, href: "https://github.com/palomasantosdias", label: "GitHub" },
+                { icon: Linkedin, href: "https://www.linkedin.com/in/paloma-santos-dias/", label: "LinkedIn" },
+                { icon: Mail, href: "mailto:paloma.santos.dias@email.com", label: "Email" }
               ].map(({ icon: Icon, href, label }) => (
                 <a
                   key={label}

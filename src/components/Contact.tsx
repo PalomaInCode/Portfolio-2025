@@ -31,15 +31,15 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "ana.silva@email.com",
-      href: "mailto:ana.silva@email.com",
+      value: "paloma.santos.dias@email.com",
+      href: "mailto:paloma.santos.dias@email.com",
       color: "text-primary"
     },
     {
       icon: Phone,
       label: "Telefone",
-      value: "+55 (11) 99999-9999",
-      href: "tel:+5511999999999",
+      value: "+55 (11) 99888-7777",
+      href: "tel:+5511998887777",
       color: "text-accent"
     },
     {
@@ -55,13 +55,13 @@ const Contact = () => {
     {
       icon: Github,
       label: "GitHub",
-      href: "https://github.com/anasilva",
+      href: "https://github.com/palomasantosdias",
       color: "text-foreground hover:text-primary"
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "https://linkedin.com/in/anasilva",
+      href: "https://www.linkedin.com/in/paloma-santos-dias/",
       color: "text-foreground hover:text-accent"
     }
   ];

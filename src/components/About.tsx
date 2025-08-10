@@ -55,12 +55,12 @@ const About = () => {
                 <CardContent className="p-8">
                   <h3 className="text-2xl font-bold mb-4 text-foreground">Minha Jornada</h3>
                   <p className="text-muted-foreground leading-relaxed mb-4">
-                    Iniciei minha jornada na tecnologia através do curso de Análise e Desenvolvimento de Sistemas, 
-                    onde descobri minha paixão por resolver problemas complexos através da programação.
+                    Minha jornada na tecnologia começou com o curso de Análise e Desenvolvimento de Sistemas, 
+                    onde descobri minha vocação para resolver problemas complexos através da programação e análise de sistemas.
                   </p>
                   <p className="text-muted-foreground leading-relaxed">
-                    Atualmente, como estagiária SAP MM, tenho a oportunidade de trabalhar com sistemas empresariais 
-                    de grande escala, aprendendo sobre gestão de materiais e processos de negócio.
+                    Como estagiária SAP MM, desenvolvo competências em gestão de materiais, processos de compras e 
+                    otimização de workflows empresariais, sempre buscando inovação e eficiência nos processos.
                   </p>
                 </CardContent>
               </Card>

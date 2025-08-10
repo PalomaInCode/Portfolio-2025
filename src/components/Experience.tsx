@@ -7,44 +7,47 @@ const Experience = () => {
     {
       type: "work",
       title: "Estagiária SAP MM",
-      company: "Empresa Corp",
+      company: "Empresa Líder em ERP",
       location: "São Paulo, SP",
-      period: "Jan 2024 - Presente",
+      period: "Mar 2024 - Presente",
       description: [
-        "Apoio na configuração e manutenção do módulo SAP MM (Materials Management)",
-        "Análise de processos de compras, estoque e gestão de fornecedores",
-        "Criação de relatórios customizados utilizando SAP Query e Smart Forms",
-        "Suporte aos usuários finais e resolução de incidentes do sistema"
+        "Configuração e parametrização do módulo SAP MM para otimização de processos",
+        "Desenvolvimento de relatórios customizados usando SAP Query e Smart Forms",
+        "Análise de processos de procurement e gestão de fornecedores",
+        "Suporte técnico aos usuários finais e resolução de incidentes críticos",
+        "Participação em projetos de implementação e migração de dados"
       ],
-      skills: ["SAP MM", "ABAP Básico", "SAP Query", "Processos de Compras", "Gestão de Estoque"]
+      skills: ["SAP MM", "SAP Query", "ABAP", "Procurement", "S/4HANA", "Fiori"]
     },
     {
       type: "education",
       title: "Análise e Desenvolvimento de Sistemas",
-      company: "Faculdade Tecnológica",
+      company: "FATEC São Paulo",
       location: "São Paulo, SP",
-      period: "Mar 2023 - Dez 2025",
+      period: "Jan 2023 - Dez 2025",
       description: [
-        "Desenvolvimento de aplicações web e mobile utilizando tecnologias modernas",
-        "Análise e modelagem de sistemas e bancos de dados",
-        "Metodologias ágeis e gestão de projetos de software",
-        "Programação em múltiplas linguagens: Java, JavaScript, Python, C#"
+        "Desenvolvimento de aplicações web e mobile com foco em soluções empresariais",
+        "Análise e modelagem de sistemas complexos e arquitetura de software",
+        "Implementação de metodologias ágeis e DevOps em projetos acadêmicos",
+        "Especialização em integração de sistemas e APIs RESTful",
+        "Projetos práticos envolvendo bancos de dados e Business Intelligence"
       ],
-      skills: ["Java", "JavaScript", "Python", "React", "Node.js", "MySQL", "Git"]
+      skills: ["Java", "JavaScript", "Python", "React", "Spring Boot", "PostgreSQL", "Docker"]
     },
     {
       type: "work",
-      title: "Desenvolvedora Junior (Freelance)",
+      title: "Desenvolvedora Full Stack (Freelance)",
       company: "Projetos Independentes",
       location: "Remoto",
-      period: "Jun 2023 - Dez 2023",
+      period: "Jun 2023 - Fev 2024",
       description: [
-        "Desenvolvimento de websites responsivos para pequenas empresas",
-        "Criação de sistemas web para gestão de estoque e vendas",
-        "Implementação de APIs RESTful e integração com bancos de dados",
-        "Manutenção e otimização de aplicações existentes"
+        "Desenvolvimento de aplicações web responsivas para PMEs e startups",
+        "Criação de dashboards interativos para análise de dados empresariais",
+        "Implementação de APIs RESTful e integração com sistemas legados",
+        "Consultoria em transformação digital e automação de processos",
+        "Desenvolvimento de soluções mobile-first com React Native"
       ],
-      skills: ["React", "Node.js", "Express", "MongoDB", "HTML/CSS", "API REST"]
+      skills: ["React", "Node.js", "TypeScript", "MongoDB", "AWS", "React Native"]
     }
   ];
 
