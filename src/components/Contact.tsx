@@ -31,21 +31,21 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "paloma.santos.dias@email.com",
-      href: "mailto:paloma.santos.dias@email.com",
+      value: "palomasdias04@gmail.com",
+      href: "mailto:palomasdias04@gmail.com",
       color: "text-primary"
     },
     {
       icon: Phone,
       label: "Telefone",
-      value: "+55 (11) 99888-7777",
-      href: "tel:+5511998887777",
+      value: "+55 (11) 95334-9365",
+      href: "tel:+5511953349365",
       color: "text-accent"
     },
     {
       icon: MapPin,
       label: "Localização",
-      value: "São Paulo, SP - Brasil",
+      value: "Ponte Rasa, São Paulo - SP",
       href: "#",
       color: "text-primary"
     }

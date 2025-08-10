@@ -6,48 +6,63 @@ const Experience = () => {
   const experiences = [
     {
       type: "work",
-      title: "Estagiária SAP MM",
-      company: "Empresa Líder em ERP",
+      title: "Estagiário SAP MM",
+      company: "Stefanini",
       location: "São Paulo, SP",
-      period: "Mar 2024 - Presente",
+      period: "Fev 2025 - Presente",
       description: [
-        "Configuração e parametrização do módulo SAP MM para otimização de processos",
-        "Desenvolvimento de relatórios customizados usando SAP Query e Smart Forms",
-        "Análise de processos de procurement e gestão de fornecedores",
-        "Suporte técnico aos usuários finais e resolução de incidentes críticos",
-        "Participação em projetos de implementação e migração de dados"
+        "Participação em treinamentos internos com foco no módulo SAP MM (Materials Management)",
+        "Aprendizado prático em processos de compras, gestão de materiais",
+        "Cadastro de fornecedores, requisições e pedidos de compra",
+        "Dedicação contínua aos estudos para a certificação SAP MM",
+        "Desenvolvimento através de simulados, revisões e aulas especializadas"
       ],
-      skills: ["SAP MM", "SAP Query", "ABAP", "Procurement", "S/4HANA", "Fiori"]
+      skills: ["SAP MM", "Materials Management", "Processos de Compras", "Gestão de Materiais", "Fornecedores"]
+    },
+    {
+      type: "work",
+      title: "Assistente Administrativo",
+      company: "Grupo Drummond",
+      location: "São Paulo, SP",
+      period: "Mai 2023 - Ago 2024",
+      description: [
+        "Atendimento telefônico e presencial, com foco em organização e comunicação",
+        "Gerenciamento de matrículas no sistema TOTVS e suporte às metas do departamento",
+        "Organização de documentos e elaboração de planilhas",
+        "Suporte em secretaria, incluindo emissão de certificados e declarações",
+        "Desenvolvimento de habilidades no Pacote Office e no sistema TOTVS"
+      ],
+      skills: ["TOTVS", "Microsoft Office", "Atendimento ao Cliente", "Organização", "Secretaria"]
     },
     {
       type: "education",
       title: "Análise e Desenvolvimento de Sistemas",
-      company: "FATEC São Paulo",
+      company: "São Paulo Tech School - SPTech",
       location: "São Paulo, SP",
-      period: "Jan 2023 - Dez 2025",
+      period: "Jul 2024 - Dez 2026",
       description: [
-        "Desenvolvimento de aplicações web e mobile com foco em soluções empresariais",
-        "Análise e modelagem de sistemas complexos e arquitetura de software",
-        "Implementação de metodologias ágeis e DevOps em projetos acadêmicos",
-        "Especialização em integração de sistemas e APIs RESTful",
-        "Projetos práticos envolvendo bancos de dados e Business Intelligence"
+        "Curso superior focado em desenvolvimento de software e análise de sistemas",
+        "Aprendizado de linguagens de programação e metodologias de desenvolvimento",
+        "Projetos práticos envolvendo desenvolvimento web e mobile",
+        "Estudo de banco de dados, estruturas de dados e algoritmos",
+        "Preparação para o mercado de tecnologia com foco em soluções empresariais"
       ],
-      skills: ["Java", "JavaScript", "Python", "React", "Spring Boot", "PostgreSQL", "Docker"]
+      skills: ["Programação", "Análise de Sistemas", "Desenvolvimento Web", "Banco de Dados", "Algoritmos"]
     },
     {
-      type: "work",
-      title: "Desenvolvedora Full Stack (Freelance)",
-      company: "Projetos Independentes",
-      location: "Remoto",
-      period: "Jun 2023 - Fev 2024",
+      type: "education",
+      title: "Ensino Médio Integrado ao Técnico em Administração",
+      company: "ETEC Zona Leste",
+      location: "São Paulo, SP",
+      period: "Fev 2019 - Dez 2021",
       description: [
-        "Desenvolvimento de aplicações web responsivas para PMEs e startups",
-        "Criação de dashboards interativos para análise de dados empresariais",
-        "Implementação de APIs RESTful e integração com sistemas legados",
-        "Consultoria em transformação digital e automação de processos",
-        "Desenvolvimento de soluções mobile-first com React Native"
+        "Formação técnica em administração integrada ao ensino médio",
+        "Aprendizado de processos administrativos e gestão empresarial",
+        "Desenvolvimento de habilidades em organização e planejamento",
+        "Base sólida em administração que complementa a formação em tecnologia",
+        "Preparação para o mercado de trabalho com foco em gestão"
       ],
-      skills: ["React", "Node.js", "TypeScript", "MongoDB", "AWS", "React Native"]
+      skills: ["Administração", "Gestão", "Organização", "Planejamento", "Processos Administrativos"]
     }
   ];
 

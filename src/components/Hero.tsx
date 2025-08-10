@@ -33,12 +33,12 @@ const Hero = () => {
             
             <div className="text-xl md:text-2xl text-white/90 mb-8 space-y-2">
               <p>Estudante de <span className="text-primary-glow font-semibold">Análise e Desenvolvimento de Sistemas</span></p>
-              <p>Estagiária SAP MM | <span className="text-accent-glow font-semibold">Materials Management</span></p>
+              <p>Estagiária SAP MM | <span className="text-accent-glow font-semibold">Stefanini</span></p>
             </div>
             
             <p className="text-lg text-white/80 mb-10 max-w-2xl mx-auto leading-relaxed">
-              Apaixonada por tecnologia e sistemas empresariais, especializada em SAP MM e desenvolvimento de soluções inovadoras. 
-              Combino conhecimento técnico com visão de negócio para criar soluções eficientes e impactantes.
+              Busco uma oportunidade que me permita aplicar e desenvolver os conhecimentos adquiridos no curso de Análise e Desenvolvimento de Sistemas, 
+              contribuindo para a criação de soluções inovadoras e eficientes. Comprometida com o aprendizado, almejo crescer profissionalmente e agregar valor.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
@@ -63,7 +63,7 @@ const Hero = () => {
               {[
                 { icon: Github, href: "https://github.com/palomasantosdias", label: "GitHub" },
                 { icon: Linkedin, href: "https://www.linkedin.com/in/paloma-santos-dias/", label: "LinkedIn" },
-                { icon: Mail, href: "mailto:paloma.santos.dias@email.com", label: "Email" }
+                { icon: Mail, href: "mailto:palomasdias04@gmail.com", label: "Email" }
               ].map(({ icon: Icon, href, label }) => (
                 <a
                   key={label}

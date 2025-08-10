@@ -13,7 +13,7 @@ const About = () => {
     {
       icon: Building2,
       title: "SAP MM",
-      description: "Estagiária em Materials Management",
+      description: "Estagiária na Stefanini",
       color: "text-accent"
     },
     {
@@ -31,8 +31,9 @@ const About = () => {
   ];
 
   const technologies = [
-    "SAP MM", "Java", "JavaScript", "Python", "React", "Node.js", 
-    "MySQL", "PostgreSQL", "Git", "Docker", "AWS", "Agile"
+    "SAP MM", "Microsoft Office", "TOTVS", "Canva", "Adobe", 
+    "Gestão de Materiais", "Processos de Compras", "Cadastro de Fornecedores", 
+    "Organização", "Administração", "Atendimento ao Cliente"
   ];
 
   return (
@@ -55,12 +56,12 @@ const About = () => {
                 <CardContent className="p-8">
                   <h3 className="text-2xl font-bold mb-4 text-foreground">Minha Jornada</h3>
                   <p className="text-muted-foreground leading-relaxed mb-4">
-                    Minha jornada na tecnologia começou com o curso de Análise e Desenvolvimento de Sistemas, 
-                    onde descobri minha vocação para resolver problemas complexos através da programação e análise de sistemas.
+                    Minha jornada na tecnologia começou com o ensino médio técnico em Administração na ETEC Zona Leste, 
+                    onde desenvolvi uma base sólida em gestão e processos administrativos.
                   </p>
                   <p className="text-muted-foreground leading-relaxed">
-                    Como estagiária SAP MM, desenvolvo competências em gestão de materiais, processos de compras e 
-                    otimização de workflows empresariais, sempre buscando inovação e eficiência nos processos.
+                    Atualmente cursando Análise e Desenvolvimento de Sistemas na São Paulo Tech School e estagiando na Stefanini, 
+                    desenvolvo competências em SAP MM, gestão de materiais e processos de compras, sempre focada no aprendizado contínuo.
                   </p>
                 </CardContent>
               </Card>

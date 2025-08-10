@@ -6,7 +6,7 @@ const Footer = () => {
   const socialLinks = [
     { icon: Github, href: "https://github.com/palomasantosdias", label: "GitHub" },
     { icon: Linkedin, href: "https://www.linkedin.com/in/paloma-santos-dias/", label: "LinkedIn" },
-    { icon: Mail, href: "mailto:paloma.santos.dias@email.com", label: "Email" }
+    { icon: Mail, href: "mailto:palomasdias04@gmail.com", label: "Email" }
   ];
 
   const quickLinks = [
@@ -72,9 +72,9 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="text-lg font-semibold text-foreground">Contato</h4>
             <div className="space-y-2 text-muted-foreground">
-              <p>📧 paloma.santos.dias@email.com</p>
-              <p>📱 +55 (11) 99888-7777</p>
-              <p>📍 São Paulo, SP - Brasil</p>
+              <p>📧 palomasdias04@gmail.com</p>
+              <p>📱 +55 (11) 95334-9365</p>
+              <p>📍 Ponte Rasa, São Paulo - SP</p>
             </div>
             <div className="p-4 rounded-lg bg-muted/30 border border-border/50">
               <p className="text-sm text-muted-foreground">
