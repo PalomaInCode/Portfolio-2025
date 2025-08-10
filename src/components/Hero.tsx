@@ -1,0 +1,89 @@
+import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
+import { Github, Linkedin, Mail, Download } from "lucide-react";
+import heroBackground from "@/assets/hero-background.jpg";
+
+const Hero = () => {
+  const scrollToSection = (sectionId: string) => {
+    document.getElementById(sectionId)?.scrollIntoView({ behavior: "smooth" });
+  };
+
+  return (
+    <section 
+      className="min-h-screen flex items-center justify-center relative overflow-hidden"
+      style={{
+        backgroundImage: `linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(${heroBackground})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center'
+      }}
+    >
+      {/* Gradient overlay */}
+      <div className="absolute inset-0 bg-gradient-hero" />
+      
+      <div className="container mx-auto px-6 relative z-10">
+        <div className="max-w-4xl mx-auto text-center">
+          <div className="animate-fade-in">
+            <Badge variant="secondary" className="mb-6 bg-background/10 text-white border-white/20">
+              ✨ Disponível para oportunidades
+            </Badge>
+            
+            <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white">
+              Ana Silva
+            </h1>
+            
+            <div className="text-xl md:text-2xl text-white/90 mb-8 space-y-2">
+              <p>Estudante de <span className="text-primary-glow font-semibold">Análise e Desenvolvimento de Sistemas</span></p>
+              <p>Estagiária SAP MM | <span className="text-accent-glow font-semibold">Materials Management</span></p>
+            </div>
+            
+            <p className="text-lg text-white/80 mb-10 max-w-2xl mx-auto leading-relaxed">
+              Apaixonada por tecnologia e sistemas empresariais, com foco em SAP MM e desenvolvimento de soluções inovadoras. 
+              Busco sempre aprender e contribuir para projetos que fazem a diferença.
+            </p>
+            
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
+              <Button 
+                size="lg" 
+                onClick={() => scrollToSection("projetos")}
+                className="bg-gradient-primary hover:shadow-glow transition-all duration-300 px-8"
+              >
+                Ver Projetos
+              </Button>
+              <Button 
+                size="lg" 
+                variant="outline" 
+                className="border-white text-white hover:bg-white hover:text-foreground transition-all duration-300 px-8"
+              >
+                <Download className="w-4 h-4 mr-2" />
+                Download CV
+              </Button>
+            </div>
+            
+            <div className="flex justify-center gap-6">
+              {[
+                { icon: Github, href: "#", label: "GitHub" },
+                { icon: Linkedin, href: "#", label: "LinkedIn" },
+                { icon: Mail, href: "mailto:ana@email.com", label: "Email" }
+              ].map(({ icon: Icon, href, label }) => (
+                <a
+                  key={label}
+                  href={href}
+                  className="p-3 rounded-full bg-white/10 text-white hover:bg-white hover:text-foreground transition-all duration-300 hover:scale-110"
+                  aria-label={label}
+                >
+                  <Icon className="w-5 h-5" />
+                </a>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      {/* Floating elements */}
+      <div className="absolute top-20 left-10 w-20 h-20 bg-primary/20 rounded-full blur-xl animate-glow" />
+      <div className="absolute bottom-20 right-10 w-32 h-32 bg-accent/20 rounded-full blur-xl animate-glow" style={{ animationDelay: '1s' }} />
+    </section>
+  );
+};
+
+export default Hero;
