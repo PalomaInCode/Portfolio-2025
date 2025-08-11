@@ -35,17 +35,18 @@ const Contact = () => {
       href: "mailto:palomasdias04@gmail.com",
       color: "text-primary"
     },
-    {
+    /* {
       icon: Phone,
       label: "Telefone",
       value: "+55 (11) 95334-9365",
       href: "tel:+5511953349365",
       color: "text-accent"
     },
+    */
     {
       icon: MapPin,
       label: "Localização",
-      value: "Ponte Rasa, São Paulo - SP",
+      value: "São Paulo - SP",
       href: "#",
       color: "text-primary"
     }
@@ -55,7 +56,7 @@ const Contact = () => {
     {
       icon: Github,
       label: "GitHub",
-      href: "https://github.com/palomasantosdias",
+      href: "https://github.com/palomaincode",
       color: "text-foreground hover:text-primary"
     },
     {
@@ -76,7 +77,6 @@ const Contact = () => {
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
               Estou sempre aberta a novas oportunidades e conexões. 
-              Entre em contato para discutirmos como posso contribuir para sua equipe ou projeto.
             </p>
           </div>
 
@@ -133,10 +133,9 @@ const Contact = () => {
                       ✨ Status
                     </Badge>
                   </div>
-                  <h3 className="text-xl font-bold mb-2 text-foreground">Disponível para Oportunidades</h3>
+                  <h3 className="text-xl font-bold mb-2 text-foreground"></h3>
                   <p className="text-muted-foreground">
-                    Atualmente em busca de oportunidades como desenvolvedora junior ou 
-                    analista SAP, com foco em crescimento profissional e aprendizado contínuo.
+                    Atualmente com foco em crescimento profissional e aprendizado contínuo.
                   </p>
                 </CardContent>
               </Card>

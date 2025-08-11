@@ -4,7 +4,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { icon: Github, href: "https://github.com/palomasantosdias", label: "GitHub" },
+    { icon: Github, href: "https://github.com/palomaincode", label: "GitHub" },
     { icon: Linkedin, href: "https://www.linkedin.com/in/paloma-santos-dias/", label: "LinkedIn" },
     { icon: Mail, href: "mailto:palomasdias04@gmail.com", label: "Email" }
   ];
@@ -31,8 +31,7 @@ const Footer = () => {
               Paloma Santos Dias
             </h3>
             <p className="text-muted-foreground leading-relaxed">
-              Estudante de ADS e estagiária SAP MM, especializada em tecnologia empresarial 
-              e desenvolvimento de soluções inovadoras para gestão de materiais e processos.
+              Estudante de ADS e estagiária SAP MM.
             </p>
             <div className="flex gap-4">
               {socialLinks.map((social, index) => (
@@ -72,9 +71,9 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="text-lg font-semibold text-foreground">Contato</h4>
             <div className="space-y-2 text-muted-foreground">
-              <p>📧 palomasdias04@gmail.com</p>
-              <p>📱 +55 (11) 95334-9365</p>
-              <p>📍 Ponte Rasa, São Paulo - SP</p>
+              <p>palomasdias04@gmail.com</p>
+              <p>+55 (11) 95334-9365</p>
+              <p>São Paulo - SP</p>
             </div>
             <div className="p-4 rounded-lg bg-muted/30 border border-border/50">
               <p className="text-sm text-muted-foreground">

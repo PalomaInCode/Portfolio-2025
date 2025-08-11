@@ -1,6 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { GraduationCap, Building2, Code, Database } from "lucide-react";
+import { GraduationCap, Building2, Code, BookOpenText } from "lucide-react";
+import { addMilliseconds } from "date-fns";
 
 const About = () => {
   const highlights = [
@@ -19,21 +20,20 @@ const About = () => {
     {
       icon: Code,
       title: "Desenvolvimento",
-      description: "Experiência em desenvolvimento web e mobile",
+      description: "Experiência em Design",
       color: "text-primary"
     },
     {
-      icon: Database,
-      title: "Dados",
-      description: "Conhecimento em bancos de dados e análise",
+      icon: BookOpenText,
+      title: "Administração",
+      description: "Conhecimento em processos administrativos",
       color: "text-accent"
     }
   ];
 
   const technologies = [
-    "SAP MM", "Microsoft Office", "TOTVS", "Canva", "Adobe", 
-    "Gestão de Materiais", "Processos de Compras", "Cadastro de Fornecedores", 
-    "Organização", "Administração", "Atendimento ao Cliente"
+    "JavaScript", "Java", "CSS", "HTML", "Docker", "MySQL", "Git",
+    "SAP", "Microsoft Office", "TOTVS", "Canva", "Adobe", "Figma" 
   ];
 
   return (
@@ -45,7 +45,7 @@ const About = () => {
               Sobre Mim
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              Estudante dedicada com paixão por tecnologia e sistemas empresariais, 
+              Estudante dedicada com paixão por tecnologia e design, 
               sempre em busca de novos desafios e oportunidades de crescimento.
             </p>
           </div>
@@ -61,7 +61,7 @@ const About = () => {
                   </p>
                   <p className="text-muted-foreground leading-relaxed">
                     Atualmente cursando Análise e Desenvolvimento de Sistemas na São Paulo Tech School e estagiando na Stefanini, 
-                    desenvolvo competências em SAP MM, gestão de materiais e processos de compras, sempre focada no aprendizado contínuo.
+                    desenvolvo competências em SAP MM e sempre focada no aprendizado contínuo.
                   </p>
                 </CardContent>
               </Card>

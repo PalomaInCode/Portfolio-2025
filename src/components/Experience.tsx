@@ -13,7 +13,6 @@ const Experience = () => {
       description: [
         "Participação em treinamentos internos com foco no módulo SAP MM (Materials Management)",
         "Aprendizado prático em processos de compras, gestão de materiais",
-        "Cadastro de fornecedores, requisições e pedidos de compra",
         "Dedicação contínua aos estudos para a certificação SAP MM",
         "Desenvolvimento através de simulados, revisões e aulas especializadas"
       ],
@@ -43,11 +42,11 @@ const Experience = () => {
       description: [
         "Curso superior focado em desenvolvimento de software e análise de sistemas",
         "Aprendizado de linguagens de programação e metodologias de desenvolvimento",
-        "Projetos práticos envolvendo desenvolvimento web e mobile",
+        "Projetos práticos envolvendo desenvolvimento web",
         "Estudo de banco de dados, estruturas de dados e algoritmos",
         "Preparação para o mercado de tecnologia com foco em soluções empresariais"
       ],
-      skills: ["Programação", "Análise de Sistemas", "Desenvolvimento Web", "Banco de Dados", "Algoritmos"]
+      skills: ["Programação", "Análise de Sistemas", "Desenvolvimento Web", "Banco de Dados", "Cloud", "Scrum"]
     },
     {
       type: "education",
@@ -60,7 +59,7 @@ const Experience = () => {
         "Aprendizado de processos administrativos e gestão empresarial",
         "Desenvolvimento de habilidades em organização e planejamento",
         "Base sólida em administração que complementa a formação em tecnologia",
-        "Preparação para o mercado de trabalho com foco em gestão"
+        "Preparação para o mercado de trabalho com foco em gestão e projetos"
       ],
       skills: ["Administração", "Gestão", "Organização", "Planejamento", "Processos Administrativos"]
     }

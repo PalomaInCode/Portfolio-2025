@@ -4,40 +4,38 @@ import { Code, Database, Settings, Layers, Server, Globe } from "lucide-react";
 
 const Skills = () => {
   const skillCategories = [
-    {
+     /*{
       icon: Settings,
       title: "SAP & ERP",
       color: "text-primary",
       skills: [
-        { name: "SAP MM (Materials Management)", level: 75 },
-        { name: "SAP Query & Reporting", level: 65 },
-        { name: "ABAP Básico", level: 45 },
-        { name: "Processos de Compras", level: 80 }
+        { name: "SAP MM (Materials Management)", level: 40 },
+        { name: "ABAP Básico", level: 15 }
       ]
     },
+     */
     {
       icon: Code,
       title: "Desenvolvimento",
       color: "text-accent",
       skills: [
-        { name: "JavaScript", level: 85 },
-        { name: "React", level: 80 },
-        { name: "Java", level: 75 },
-        { name: "Python", level: 70 }
+        { name: "JavaScript", level: 45 },
+        { name: "Java", level: 30 },
+        { name: "Python", level: 2 },
+        { name: "React", level: 0 }
       ]
     },
+     /*
     {
       icon: Database,
       title: "Bancos de Dados",
       color: "text-primary",
       skills: [
-        { name: "MySQL", level: 80 },
-        { name: "PostgreSQL", level: 75 },
-        { name: "MongoDB", level: 65 },
-        { name: "SQL Avançado", level: 85 }
+        { name: "MySQL", level: 80 }
       ]
     },
-    {
+    */
+    /* {
       icon: Server,
       title: "Backend & APIs",
       color: "text-accent",
@@ -48,15 +46,16 @@ const Skills = () => {
         { name: "Microservices", level: 60 }
       ]
     },
+    */
     {
       icon: Globe,
       title: "Frontend",
       color: "text-primary",
       skills: [
         { name: "HTML/CSS", level: 90 },
-        { name: "TypeScript", level: 80 },
+         /*{ name: "TypeScript", level: 80 },
         { name: "Tailwind CSS", level: 85 },
-        { name: "Responsive Design", level: 90 }
+        { name: "Responsive Design", level: 90 } */
       ]
     },
     {
@@ -64,9 +63,9 @@ const Skills = () => {
       title: "Ferramentas & DevOps",
       color: "text-accent",
       skills: [
-        { name: "Git & GitHub", level: 85 },
-        { name: "Docker", level: 65 },
-        { name: "AWS Básico", level: 60 },
+        { name: "Git & GitHub", level: 45 },
+        { name: "Docker", level: 55 },
+        { name: "AWS Básico", level: 40 },
         { name: "Agile/Scrum", level: 75 }
       ]
     }
