@@ -1,73 +1,46 @@
-# Welcome to your Lovable project
+# Portfólio 2025 - Paloma Santos
 
-## Project info
+![Badge de Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
 
-**URL**: https://lovable.dev/projects/1d133e10-95d9-435e-a5cd-8b25e1b92422
+## Sobre
 
-## How can I edit this code?
+Este repositório contém o código-fonte do meu portfólio pessoal, onde apresento meus projetos, habilidades, experiências acadêmicas e profissionais. O portfólio foi desenvolvido para demonstrar minhas competências em desenvolvimento web, análise de dados e soluções tecnológicas.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## Sobre mim
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/1d133e10-95d9-435e-a5cd-8b25e1b92422) and start prompting.
+Olá! Eu sou Paloma Santos, estudante de Análise e Desenvolvimento de Sistemas (ADS) apaixonada por tecnologia, inovação e resolução de problemas através da programação. Neste portfólio você encontrará meus principais projetos desenvolvidos durante a faculdade e iniciativas pessoais que mostram meu crescimento na área.
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## Projetos em Destaque
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### LeakGas - Monitoramento de Vazamento de Gás
+- Sistema de monitoramento em tempo real para detectar vazamentos de gás GLP em cozinhas industriais.
+- Integra sensores IoT que enviam dados contínuos para um dashboard responsivo.
+- Envio automático de alertas por e-mail e notificações para prevenção de acidentes.
+- Tecnologias: Arduino, MySQL, API REST, HTML, CSS, Figma.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Projeto Vida - Dashboard de Crimes de São Paulo
+- Dashboard interativo para análise e previsão de crimes na cidade de São Paulo.
+- Visualização por regiões, mapas de calor, KPIs estratégicos para tomada de decisão policial.
+- Gestão de usuários administrativos e notificações personalizadas.
+- Tecnologias: React, TypeScript, APIs Públicas, ChartJS, AWS, MySQL, Figma.
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## Tecnologias Utilizadas
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- **Frontend:** React.js, Tailwind CSS, TypeScript, HTML, CSS
+- **Backend:** Node.js, Express, API RESTful
+- **Banco de Dados:** MySQL, MongoDB
+- **Outros:** Docker, AWS, Figma, Arduino (IoT)
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## Como rodar localmente
 
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/1d133e10-95d9-435e-a5cd-8b25e1b92422) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/portifolio-2025.git
