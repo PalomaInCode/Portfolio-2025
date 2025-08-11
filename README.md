@@ -43,4 +43,4 @@ Olá! Eu sou Paloma Santos, estudante de Análise e Desenvolvimento de Sistemas 
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/portifolio-2025.git
+   git clone https://github.com/PalomaInCode/Portfolio-2025.git
